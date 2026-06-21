@@ -1,0 +1,19 @@
+{
+  "name": "signal-bot-server",
+  "version": "1.0.0",
+  "description": "PAXG signal bot server with WebSocket real-time TP/SL and Pushover notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "web-push": "^3.6.6",
+    "cors": "^2.8.5",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
